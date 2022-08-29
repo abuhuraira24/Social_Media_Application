@@ -2,6 +2,11 @@
 
 # MERN Stack Social Media Application
 
+## [Client](https://github.com/abuhuraira24/socialClient)
+## [Server](https://github.com/abuhuraira24/socialServer)
+## [SocketIo](https://github.com/abuhuraira24/socketIo_server)
+
+
 #### Built with the MERN stack (MongoDB, Express, React and NodeJS).
 ![Invoice](https://res.cloudinary.com/dza2t1htw/image/upload/v1659948547/Screenshot_75_q8cedq.png)
 =
