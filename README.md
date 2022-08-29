@@ -130,5 +130,5 @@ to keep improving the project.
 - Twitter: [@abuhuraira\_](https://twitter.com/abuhuraira24)
 - Github: [@abuhuraira](https://github.com/abuhuraira24)
 - Linkedin: [@abuhuraira](https://www.linkedin.com/in/abu-huraira-34423821b/)
-- Email: [@abuhuraira](devloperabuhuraira@gmail.com)
+- Email: [@abuhuraira](mailto:devloperabuhuraira@gmail.com)
 
