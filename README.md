@@ -1,4 +1,4 @@
-### [ssociall.herokuapp.com/](https://ssociall.herokuapp.com/)
+### [ssociall.herokuapp.com](https://ssociall.herokuapp.com/)
 
 # MERN Stack Social Media Application
 
