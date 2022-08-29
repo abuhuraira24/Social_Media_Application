@@ -16,8 +16,6 @@
 - [Configuration and Setup](#configuration-and-setup)
 - [Troubleshooting](#troubleshooting)
 - [Author](#author)
-- [License](#license)
-
 ## Introduction
 
 This is a site project I've been working on. A full stack social media application made using the MERN stack (MongoDB, Express, React & Nodejs), With this application, where people can connect with other people. Jump right off the [Live App](https://ssociall.herokuapp.com/login) or download the entire [Client source code](https://github.com/abuhuraira24/socialClient), [Server source code](https://github.com/abuhuraira24/socialServer)  and run it on your server. This project is something I've been working on in my free time so I cannot be sure that everything will work out correctly. But I'll appreciate you if can report any issue.
@@ -80,19 +78,12 @@ In the first terminal
 - Supply the following credentials
 
 ```
-REACT_APP_GOOGLE_CLIENT_ID =
-REACT_APP_API = http://localhost:5000
-REACT_APP_URL = http://localhost:3000
+REACT_APP_SERVER_URL =
+REACT_APP_CLIENT_URL = 
+REACT_APP_SOCKETIO_SERVER_URL = 
+REACT_APP_CLOUDINRY_UPLOAD_API =
 
 ```
-
-To get your Google ClientID for authentication, go to the [credential Page ](https://console.cloud.google.com/apis/credentials) (if you are new, then [create a new project first](https://console.cloud.google.com/projectcreate) and follow the following steps;
-
-- Click Create credentials > OAuth client ID.
-- Select the Web application type.
-- Name your OAuth client and click Create
-- Remember to provide your domain and redirect URL so that Google identifies the origin domain to which it can display the consent screen. In development, that is going to be `http://localhost:3000` and `http://localhost:3000/login`
-- Copy the Client ID and assign it to the variable `REACT_APP_GOOGLE_CLIENT_ID` in your .env file
 
 ```
 $ cd client
@@ -106,14 +97,14 @@ In the second terminal
 - Supply the following credentials
 
 ```
-DB_URL =
+MONGODB  = URL
 PORT = 5000
-SECRET =
-SMTP_HOST =
-SMTP_PORT =
-SMTP_USER =
-SMTP_PASS =
-
+AUTH_EMAIL = (to send email via nodemailer)
+AUTH_PASS = (nodemailer pass)
+SECRET_KEY = 
+SECURE = Boolean
+SERVICE = gmail
+COVER = (default user profile cover photo url)
 ```
 
 Please follow [This tutorial](https://dev.to/dalalrohit/how-to-connect-to-mongodb-atlas-using-node-js-k9i) to create your mongoDB connection url, which you'll use as your DB_URL
@@ -135,41 +126,6 @@ $ npm link html-pdf
 $ npm link phantomjs-prebuilt
 ```
 
-## Docker
-
-Using docker is simple. Just add the .env contextualized with the docker network.
-
-e.g:
-
-> goes to path "server/.env"
-
-```
-DB_URL = mongodb://mongo:27017/arch
-PORT = 5000
-SECRET =
-SMTP_HOST =
-SMTP_PORT =
-SMTP_USER =
-SMTP_PASS =
-```
-
-> goes to path "client/.env"
-
-```
-REACT_APP_GOOGLE_CLIENT_ID =
-REACT_APP_API = http://localhost:5000
-REACT_APP_URL = http://localhost
-```
-
-And run
-
-```
-docker-compose -f docker-compose.prod.yml build
-
-And then
-
-docker-compose -f docker-compose.prod.yml up
-```
 
 ## Comment
 
@@ -178,11 +134,8 @@ to keep improving the project.
 
 ## Author
 
-- Twitter: [@panshak\_](https://twitter.com/panshak_)
-- Github: [@panshak](https://github.com/panshak)
-- Linkedin: [@panshak](https://www.linkedin.com/in/panshak/)
-- Email: [@ipanshak](mailto:ipanshak@gmail.com)
+- Twitter: [@abuhuraira\_](https://twitter.com/abuhuraira24)
+- Github: [@abuhuraira](https://github.com/abuhuraira24)
+- Linkedin: [@abuhuraira](https://www.linkedin.com/in/abu-huraira-34423821b/)
+- Email: [@abuhuraira](devloperabuhuraira@gmail.com)
 
-## License
-
-- This project is [MIT](https://github.com/Panshak/accountill/blob/master/LICENSE.md) licensed.
