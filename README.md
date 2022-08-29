@@ -31,9 +31,9 @@ This is a site project I've been working on. A full stack social media applicati
 - User can create post, upload photos, deletion and update post.
 - Real time Comment and like/unlike.
 - User can follow and unfollow others.
-- Clean admin dashboard for displaying all invoice statistics including total amount received, total pending, recent payments, total invoice paid, total unpaid and partially paid invoices.
-- Multiple user registration.
-- Authentication using jsonwebtoken (jwt) and Google auth
+- User can see tottal followers and others posts
+- User registration and Login/logout system.
+- Authentication using jsonwebtoken (jwt).
 
 ## Technologies used
 
@@ -42,14 +42,14 @@ This project was created using the following technologies.
 #### Client
 
 - React JS
-- Redux (for managing and centralizing application state)
+- Context API (for managing and centralizing application state)
 - React-router-dom (To handle routing)
 - Axios (for making api calls)
-- Material UI & CSS Module (for User Interface)
-- React simple Snackbar (To display success/error notifications)
+- Styled Commponents & SCSS Module (for User Interface)
+- React toastify  (To display success/error notifications)
 - Cloudinary (to allows users to upload their business logo)
-- Apex Charts (to display payment history)
 - React-google-login (To enable authentication using Google)
+- Apollo Clien (to data fetching)
 
 #### Server
 
@@ -58,7 +58,9 @@ This project was created using the following technologies.
 - JWT (For authentication)
 - bcryptjs (for data encryption)
 - Nodemailer (for sending invoice via email)
-- html-pdf (for generating invoice PDFs)
+- SocketIo
+- GraphQL/Apollo Server
+- multer
 
 #### Database
 
