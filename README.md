@@ -26,12 +26,11 @@ This is a site project I've been working on. A full stack social media applicati
 
 ## Key Features
 
-- Send invoices, receipts, estimates, quotations and bills via email
-- Generate and send/download pdf invoices, receipts, estimates, quotations and bills via email
-- Set due date.
-- Automatic status change when payment record is added
-- Payment history section for each invoice with record about payment date, payment method and extra note.
-- Record partial payment of invoice.
+- Email verification  via nodemailer
+-Account creation and forgot password via email
+- User can create post, upload photos, deletion and update post.
+- Real time Comment and like/unlike.
+- User can follow and unfollow others.
 - Clean admin dashboard for displaying all invoice statistics including total amount received, total pending, recent payments, total invoice paid, total unpaid and partially paid invoices.
 - Multiple user registration.
 - Authentication using jsonwebtoken (jwt) and Google auth
