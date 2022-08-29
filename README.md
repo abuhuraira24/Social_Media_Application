@@ -14,7 +14,6 @@
   - [Server](#server)
   - [Database](#database)
 - [Configuration and Setup](#configuration-and-setup)
-- [Troubleshooting](#troubleshooting)
 - [Author](#author)
 ## Introduction
 
@@ -113,17 +112,6 @@ Please follow [This tutorial](https://dev.to/dalalrohit/how-to-connect-to-mongod
 $ cd server
 $ npm install (to install server-side dependencies)
 & npm start (to start the server)
-```
-
-## Troubleshooting
-
-If you're getting error while trying to send or download PDF,
-please run the following in your server terminal.
-
-```
-$ npm install html-pdf -g
-$ npm link html-pdf
-$ npm link phantomjs-prebuilt
 ```
 
 
