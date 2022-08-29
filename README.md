@@ -4,13 +4,8 @@
 
 Built with the MERN stack (MongoDB, Express, React and NodeJS).
 ![Invoice](https://res.cloudinary.com/dza2t1htw/image/upload/v1659948547/Screenshot_75_q8cedq.png)
-
-## Update
-
-I am pleased to inform you that the name of this repository has been changed from Arc Invoice to Accountill.
-There are so many things coming! Stay tuned!!
-
-## Panshak
+=
+## Table of contents
 
 - [Introduction](#introduction)
 - [Key Features](#key-features)
@@ -25,9 +20,9 @@ There are so many things coming! Stay tuned!!
 
 ## Introduction
 
-This is a side project I've been working on. A full stack invoicing application made using the MERN stack (MongoDB, Express, React & Nodejs), specially designed for freelancers and small businesses, but can be used for almost any type of business need. With this application, you can send beautiful invoices, receipts, estimates, quotes, bills etc to your clients. Jump right off the [Live App](https://accountill.com/) and start sending invoice or download the entire [Source code](https://github.com/Panshak/accountill) and run it on your server. This project is something I've been working on in my free time so I cannot be sure that everything will work out correctly. But I'll appreciate you if can report any issue.
+This is a site project I've been working on. A full stack social media application made using the MERN stack (MongoDB, Express, React & Nodejs), With this application, where people can connect with other people. Jump right off the [Live App](https://ssociall.herokuapp.com/login) or download the entire [Client source code](https://github.com/abuhuraira24/socialClient), [Server source code](https://github.com/abuhuraira24/socialServer)  and run it on your server. This project is something I've been working on in my free time so I cannot be sure that everything will work out correctly. But I'll appreciate you if can report any issue.
 
-![Invoice Dashboard](https://res.cloudinary.com/dza2t1htw/image/upload/v1659959697/Screenshot_78_a4y8uo.png)
+![Profile](https://res.cloudinary.com/dza2t1htw/image/upload/v1659959697/Screenshot_78_a4y8uo.png)
 
 ## Key Features
 
