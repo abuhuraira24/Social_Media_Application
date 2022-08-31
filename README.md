@@ -31,7 +31,7 @@ This is a site project I've been working on. A full stack social media applicati
 - Email verification  via nodemailer
 -Account creation and forgot password via email
 - User can create post, upload photos, deletion and update post.
-- Real time Comment and like/unlike.
+- Real time push notification, Comment and like/unlike.
 - User can follow and unfollow others.
 - User can see tottal followers and others posts
 - User registration and Login/logout system.
