@@ -127,8 +127,7 @@ to keep improving the project.
 
 ## Author
 
-- Twitter: [@abuhuraira\_](https://twitter.com/abuhuraira24)
-- Github: [@abuhuraira](https://github.com/abuhuraira24)
-- Linkedin: [@abuhuraira](https://www.linkedin.com/in/abu-huraira-34423821b/)
-- Email: [@abuhuraira](mailto:devloperabuhuraira@gmail.com)
+- Github: [@shahadat](https://github.com/abuhuraira24)
+- Linkedin: [@shahadat](https://www.linkedin.com/in/abu-huraira-34423821b/)
+- Email: [@shahadat](mailto:shahadatjamann@gmail.com)
 
